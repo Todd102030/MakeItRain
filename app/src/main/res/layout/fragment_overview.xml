@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.toddindustries.makeitrain.Overview">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/conditionText"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:id="@+id/conditions"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#303030"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bigTemp"
+        android:layout_below="@+id/conditions"
+        android:layout_centerHorizontal="true"
+        android:textSize="100dp"
+        android:text="--"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#303030"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highAndLowTemps"
+        android:layout_below="@+id/bigTemp"
+        android:layout_centerHorizontal="true"
+        android:textSize="26dp"
+        android:text="⇑- ⇓-"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#303030"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/debugText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:linksClickable="false"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#303030"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:layout_above="@+id/updatedLast"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#303030"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/updatedLast"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#303030"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"/>
+
+
+</RelativeLayout>

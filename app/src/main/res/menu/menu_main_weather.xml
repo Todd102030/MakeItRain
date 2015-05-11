@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainWeather">
+    <item android:id="@+id/refresh"
+          android:title="@string/action_refresh"
+          android:orderInCategory="100"
+          android:icon="@drawable/ic_menu_refresh"
+          android:showAsAction="always"/>
+    <item android:id="@+id/action_search"
+          android:title="@string/action_search"
+          android:icon="@drawable/ic_menu_search_holo_dark"
+          android:showAsAction="ifRoom|collapseActionView"
+          android:actionViewClass="android.widget.SearchView" />
+</menu>
